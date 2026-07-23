@@ -24,26 +24,17 @@ jobs:
         sudo apt-get install -y \
           build-essential \
           git \
-          ffmpeg \
-          libsdl2-dev \
-          libsdl2-image-dev \
-          libsdl2-mixer-dev \
-          libsdl2-ttf-dev \
-          libportmidi-dev \
-          libswscale-dev \
-          libavformat-dev \
-          libavcodec-dev \
-          zlib1g-dev \
-          libgstreamer1.0-dev \
-          gstreamer1.0-plugins-base \
-          gstreamer1.0-plugins-good \
+          ccache \
           libffi-dev \
           libssl-dev \
           python3-dev \
           openjdk-17-jdk \
           zip \
           unzip \
-          ccache
+          zlib1g-dev \
+          autoconf \
+          libtool \
+          pkg-config
 
     - name: Install Buildozer & Cython
       run: |
