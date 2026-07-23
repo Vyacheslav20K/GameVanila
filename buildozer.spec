@@ -6,13 +6,14 @@ source.dir = .
 source.include_exts = py,png,jpg,kv
 version = 1.0
 
-requirements = python3,kivy,telethon,pysocks,openssl,requests,urllib3,idna,certifi
+# Минимально необходимые пакеты для работы
+requirements = python3,kivy,telethon,pysocks,asyncio
 
 orientation = portrait
 fullscreen = 0
-android.permissions = INTERNET
+android.permissions = INTERNET,ACCESS_NETWORK_STATE
 
-# Гарантированно рабочая связка Android SDK / NDK:
+# Настройки SDK / NDK
 android.api = 33
 android.minapi = 21
 android.ndk = 25b
