@@ -12,7 +12,7 @@ orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
 
-# Гарантированно рабочие версии SDK / NDK:
+# Гарантированно рабочая связка Android SDK / NDK:
 android.api = 33
 android.minapi = 21
 android.ndk = 25b
